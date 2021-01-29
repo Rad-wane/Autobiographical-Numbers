@@ -48,7 +48,7 @@ for nb in range(min_nb,max_nb,1):
     if is_auto_func(str(nb)):
         list_auto.append(nb)
 
-if len(list_auto)>0:
+if len(list_auto_all)>0:
     print('\n')
     print('The list with all autobiographical numbers with '+str(nb_dig)+' digits is :' )    
     print(list_auto)
